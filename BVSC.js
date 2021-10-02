@@ -5,8 +5,8 @@
 // @description  加入更多播放倍数选项!
 // @author       SY0UYU
 // @supportURL   https://github.com/SY0UYU/Bilibili-Video-Speed-Controller/issues
-// @updateURL    https://github.com/SY0UYU/Bilibili-Video-Speed-Controller/raw/master/BVSC.js
-// @downloadURL  https://github.com/SY0UYU/Bilibili-Video-Speed-Controller/raw/master/BVSC.js
+// @updateURL    https://raw.githubusercontent.com/SY0UYU/Bilibili-Video-Speed-Controller/main/BVSC.js
+// @downloadURL  https://raw.githubusercontent.com/SY0UYU/Bilibili-Video-Speed-Controller/main/BVSC.js
 // @icon         https://www.bilibili.com/favicon.ico?v=1
 // @include      https://www.bilibili.com/video/*
 // @grant        none

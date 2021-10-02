@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bilibili Video Speed Controler
 // @namespace    https://github.com/SY0UYU/Bilibili-Video-Speed-Controller
-// @version      0.2
+// @version      0.2.1
 // @description  加入更多播放倍数选项!
 // @author       SY0UYU
 // @supportURL   https://github.com/SY0UYU/Bilibili-Video-Speed-Controller/issues
@@ -49,7 +49,7 @@
         }
         console.log('Bilibili Video Speed Controler Inject Success! ');
     };
-    injectHTML(function () {
+    const myCallback = function () {
         $('#bilibili-player').click(function () {
             let list = document.getElementsByClassName('bilibili-player-video-btn-speed-menu-list');
             if (list.length == 6) {
@@ -63,5 +63,6 @@
                 });
             }
         });
-    });
+    }
+    injectHTML(myCallback);
 })();
